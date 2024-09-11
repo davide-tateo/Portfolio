@@ -101,10 +101,10 @@
           </div>
           <div class="about-wrapper__info">
             <p class="about-wrapper__info-text">
-              I am a Copenhagen-based data scientist with competences in SQL, Python, Tableau, and HTML.
+              I am a Copenhagen-based data scientist working in Satair A/S, with competences in Python,  SQL, Tableau, R, and HTML.
             </p>
             <p class="about-wrapper__info-text">
-              I'm passionate about technology and its practical applications to society and business. To deepen my knowledge in this domain I decided to start my master's programme in data science and business administration at Copenhagen Business School.
+              I'm passionate about technology and its practical applications to society and business, and for this reason I am pursuing a master's degree in data science and BA at Copenhagen Business School.
             </p>
             <p class="about-wrapper__info-text">
               Other interests and hobbies of mine include languages (natural and programming), cooking and going swimming
@@ -125,7 +125,83 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects in Python</h2>
+          <h2 class="section-title dark-blue-text">Machine Learning Projects</h2>
+
+           <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Natural Language Processing on data scraped from X (Twitter)</h3>
+              <p class="project-wrapper__text-info">
+                The project aims to understand how NLP techniques applied on data scraped from social media can be exploited in business & finance. A Logistic Regression model was used to classify the tweets as Western or Russian. Topic modelling was then performed using LDA and BERTopic. Finally, a sentiment analysis was conducted and the correlation between the sentiments and other variables was investigated.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/davide-tateo/NLP_on_Tweets"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/davide-tateo/NLP_on_Tweets" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/Twitter_logo.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>   
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Detecting melanomas using Machine Learning</h3>
+              <p class="project-wrapper__text-info">
+                A dataset of 22000 images was used to train and test different machine learning and deep learning models. Support Vector Machines (SVM) was used in combination with Principal Component Analysis (PCA) and GridSearchCV. Two Convolutional Neural Networks (CNN) were trained: one was kept more basic, while the second one employed Keras Tuner to fine-tune Hyperparameters. 
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/davide-tateo/machine_learning_for_melanoma_detection"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/davide-tateo/machine_learning_for_melanoma_detection" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/melanoma_detection.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>   
+          <!-- /END Project -->
+
+
+
+
+
+
+
+          <h2 class="section-title dark-blue-text">Data analysis using Python</h2>
 
           <!-- Each .row is a project -->
           <article class="row">
@@ -165,6 +241,7 @@
           </article>
           <!-- /END Project -->
 
+          <h2 class="section-title dark-blue-text">Object Oriented programming in Python</h2>
 
           <!-- Each .row is a project -->
           <article class="row">
@@ -246,10 +323,7 @@
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Project Title</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                The motivation behind this project is to understand how NLP techniques applied on data scraped from social media can be exploited in business & finance.
               </p>
               <div class="project-wrapper__text-btns">
                 <a
@@ -390,11 +464,11 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         
-        <hr />
+      <!--  <hr />
         <p class="footer__text">
           &copy; <span id="year"></span> - Template by Anil Seervi.
            <br />Made with &hearts;
-        </p>
+        </p> -->
       </div>
     </footer>
     <!-- END Footer Section -->
